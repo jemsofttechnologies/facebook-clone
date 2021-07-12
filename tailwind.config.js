@@ -14,5 +14,5 @@ module.exports = {
 			borderWidth: ["focus", "hover", "active"],
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwind-scrollbar-hide")],
 };
